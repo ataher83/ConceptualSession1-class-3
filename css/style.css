@@ -1,0 +1,59 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:wght@200;300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url("../images/cow.jpg");
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+.hero h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: azure;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.article{
+    width: 80%;
+    margin: 20px auto;
+    border: 15px solid yellow;
+    padding: 60px;
+    background-color: aqua;
+}
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+}
+.article p{
+    font-size: 28px; 
+    /* line-height: 50px; */
+    /* line-height: 2em; */
+    line-height: 2rem; 
+}
+.article p .imp{
+    font-size: 2em;
+    background-color: yellow;
+    width: 600px;
+    /* display:inline-block; */
+    /* display: block; */
+    /* display: inline; */
+}
+#cows-types{}
+.cows-images{
+    display: flex;
+}
+.cows-images img{
+    width: 100%; 
+}
